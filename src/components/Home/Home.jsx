@@ -8,21 +8,18 @@ function Home() {
       <h1>Алгоритм та Структура Даних</h1>
       <div className="sections">
         <div className="graph">
-          <h2>Graph Algorithm DFS</h2>
+          <h2>Graph Algorithm BFS</h2>
           <Link to="/graph">
             <button className="start">Start</button>
           </Link>
         </div>
-        <div className="rbt">
-          <h2>Data Structure Red Black Tree</h2>
-          <Link to="/rbt">
+        <div className="avl">
+          <h2>Data Structure AVL Tree</h2>
+          <Link to="/avl">
             <button className="start">Start</button>
           </Link>
         </div>
       </div>
-      <footer>
-        <p>Internet of Things 2024</p>
-      </footer>
     </section>
   );
 }
